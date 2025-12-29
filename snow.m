@@ -79,7 +79,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)notification {
     self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
-    self.statusItem.button.title = @"❄️";
+    self.statusItem.button.title = @"❄";
     
     // メニュー作成
     NSMenu *menu = [[NSMenu alloc] init];
